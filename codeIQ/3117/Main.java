@@ -1,7 +1,5 @@
 import java.util.*;
 
-public class Main {
-
   public static void main(String[] args) throws IOException {
 
     List<Integer> input = new ArrayList<Integer>();
@@ -14,7 +12,7 @@ public class Main {
       pf.printFncA(intData);
     }//for
   }//main
-
+  
   private static List readStreamFnc() throws IOException {
 
     Scanner scanner = new Scanner(System.in);
